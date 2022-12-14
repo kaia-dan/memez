@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/scrolla.jquery.min.js"></script>
+
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>미미즈 클론코딩</title>
+</head>
+<body>
+  <!-- 헤더영역시작 -->
+  <header class="header_wrap">
+    <div class="header_inner">
+      <div class="top_btn">
+        <h1 class="logo">
+          <a href="#"><img src="img/1bb87d41d15fe27b500a4bfcde01bb0e_43685.png" alt="미미즈로고"></a>
+        </h1>
+        <ul class="top_btn_list">
+          <li>
+            <img src="img/ico_login.png" alt="로그인아이콘">LOGIN
+          </li>
+          <li>
+            <img src="img/ico_cs.png" alt="확성기아이콘"> CUSTOMER SERVICE
+          </li>
+          <li>
+            KOR<img src="img/ico_kor.png" alt="상세메뉴펼치기아이콘">
+          </li>
+        </ul>
+      </div>
+      <div class="bottom_btn">
+        <ul class="bottom_btn_list">
+          <li>
+            <a href="#"><img src="img/btn_allmenu_open.png" alt="메뉴햄버거로고"></a>
+          </li>
+          <li><a href="#">CREATOR</a></li>
+          <li><a href="#"> BRAND</a></li>
+          <li><a href="#">ARTIST</a></li>
+          <li><a href="#">PRODUCT</a></li>
+          <li><a href="#">CONTENTS</a></li>
+        </ul>
+        <form>
+          <input type="text" name="search" placeholder="귀여운 고양이 굿즈 기획전!">
+          <a href="#"><img src="img/ico_header_search.png" alt="검색아이콘"></a>
+          <button>입점신청</button>
+        </form>
+        <div class="icon">
+          <img class="ico" src="img/ico_header_link01.png" alt="사람아이콘">
+          <img class="ico" src="img/ico_header_link02.png" alt="북마크아이콘">
+          <img class="ico" src="img/ico_header_link03.png" alt="장바구니아이콘">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- 헤더영역끝 -->
+  <!-- 비쥬얼영역시작 -->
+  <div class="visual_wrap">
+    <h2 class="hidden">비쥬얼슬라이더</h2>
+    <ul class="visual_list">
+      <li>
+        <a href="#"><img src="img/672bc803d2d8ad02a5a3e7270fee6a18_81030.jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="#"><img src="img/11077593b98a91ec6d84c557316bea81_84186.jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="#"><img src="img/4914daab16fb116740196f3167321757_34942 (1).jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="#"><img src="img/46146e08b2c71dfd66040e7ad09d94de_65145.jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="#"><img src="img/81b9f39f8d7451278cf7a5a1efe35d0b_38908.jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="#"><img src="img/328931f69cc8e13060ffe2390cb74634_32362.jpg" alt=""></a>
+      </li>
+    </ul>
+    <!-- <div class="visual_slider">
+      <ul class="slider">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div> -->
+  </div>
+  <!-- 비쥬얼영역끝 -->
+  <!-- 인물정보슬라이더시작 -->
+  <section class="people_wrap">
+    <h2 class="hidden">참여인물정보</h2>
+    <ul class="list">
+      <li class="blue">
+        <a href="#">
+          <img src="img/scm_497.jpg" alt="">
+        </a>
+        아이유
+      </li>
+      <li class="blue">
+        <a href="#">
+          <img src="img/scm_492.jpg" alt="">
+        </a>
+        태연
+      </li>
+      <li class="red">
+        <a href="#">
+          <img src="img/scm_342.jpg" alt="">
+        </a>
+        침착맨
+      </li>
+      <li class="blue">
+        <a href="#">
+          <img src="img/scm_463.jpg" alt="">
+        </a>
+        스테이씨
+      </li>
+      <li class="red">
+        <a href="#">
+          <img src="img/scm_318.jpg" alt="">
+        </a>
+        조나단
+      </li>
+      <li class="yellow">
+        <a href="#">
+          <img src="img/scm_433.jpg" alt="">
+        </a>
+        아는형님
+      </li>
+      <li class="yellow">
+        <a href="#">
+          <img src="img/scm_418.jpg" alt="">
+        </a>
+        돌싱글즈3
+      </li>
+      <li class="red">
+        <a href="#">
+          <img src="img/scm_155.jpg" alt="">
+        </a>
+        람다람
+      </li>
+      <li class="yellow">
+        <a href="#">
+          <img src="img/scm_419.jpg" alt="">
+        </a>
+        디앤씨웹툰스토어
+      </li>
+<!-- 화면밖2배영역 -->
+      <li class="blue">
+        <a href="#">
+          <img src="img/scm_497.jpg" alt="">
+        </a>
+        아이유
+      </li>
+      <li class="blue">
+        <a href="#">
+          <img src="img/scm_492.jpg" alt="">
+        </a>
+        태연
+      </li>
+      <li class="red">
+        <a href="#">
+          <img src="img/scm_342.jpg" alt="">
+        </a>
+        침착맨
+      </li>
+      <li class="blue">
+        <a href="#">
+          <img src="img/scm_463.jpg" alt="">
+        </a>
+        스테이씨
+      </li>
+      <li class="red">
+        <a href="#">
+          <img src="img/scm_318.jpg" alt="">
+        </a>
+        조나단
+      </li>
+      <li class="yellow">
+        <a href="#">
+          <img src="img/scm_433.jpg" alt="">
+        </a>
+        아는형님
+      </li>
+      <li class="yellow">
+        <a href="#">
+          <img src="img/scm_418.jpg" alt="">
+        </a>
+        돌싱글즈3
+      </li>
+      <li class="red">
+        <a href="#">
+          <img src="img/scm_155.jpg" alt="">
+        </a>
+        람다람
+      </li>
+      <li class="yellow">
+        <a href="#">
+          <img src="img/scm_419.jpg" alt="">
+        </a>
+        디앤씨웹툰스토어
+      </li>
+    </ul>
+    <ul class="list">
+      <li class="yellow">
+        <a href="#">
+          <img src="img/scm_419.jpg" alt="">
+        </a>
+        디앤씨웹툰스토어
+      </li>
+      <li class="blue">
+        <a href="#">
+          <img src="img/scm_492.jpg" alt="">
+        </a>
+        태연
+      </li>
+      <li class="blue">
+        <a href="#">
+          <img src="img/scm_497.jpg" alt="">
+        </a>
+        아이유
+      </li>
+      <li class="red">
+        <a href="#">
+          <img src="img/scm_318.jpg" alt="">
+        </a>
+        조나단
+      </li>
+      <li class="yellow">
+        <a href="#">
+          <img src="img/scm_433.jpg" alt="">
+        </a>
+        아는형님
+      </li>
+      <li class="red">
+        <a href="#">
+          <img src="img/scm_342.jpg" alt="">
+        </a>
+        침착맨
+      </li>
+      <li class="blue">
+        <a href="#">
+          <img src="img/scm_463.jpg" alt="">
+        </a>
+        스테이씨
+      </li>
+      <li class="yellow">
+        <a href="#">
+          <img src="img/scm_418.jpg" alt="">
+        </a>
+        돌싱글즈3
+      </li>
+      <li class="red">
+        <a href="#">
+          <img src="img/scm_155.jpg" alt="">
+        </a>
+        람다람
+      </li>
+<!-- 화면밖2배영역 -->
+      <li class="blue">
+        <a href="#">
+          <img src="img/scm_497.jpg" alt="">
+        </a>
+        아이유
+      </li>
+      <li class="blue">
+        <a href="#">
+          <img src="img/scm_492.jpg" alt="">
+        </a>
+        태연
+      </li>
+      <li class="red">
+        <a href="#">
+          <img src="img/scm_342.jpg" alt="">
+        </a>
+        침착맨
+      </li>
+      <li class="blue">
+        <a href="#">
+          <img src="img/scm_463.jpg" alt="">
+        </a>
+        스테이씨
+      </li>
+      <li class="yellow">
+        <a href="#">
+          <img src="img/scm_433.jpg" alt="">
+        </a>
+        아는형님
+      </li>
+      <li class="yellow">
+        <a href="#">
+          <img src="img/scm_418.jpg" alt="">
+        </a>
+        돌싱글즈3
+      </li>
+      <li class="red">
+        <a href="#">
+          <img src="img/scm_318.jpg" alt="">
+        </a>
+        조나단
+      </li>
+      <li class="yellow">
+        <a href="#">
+          <img src="img/scm_419.jpg" alt="">
+        </a>
+        디앤씨웹툰스토어
+      </li>
+      <li class="red">
+        <a href="#">
+          <img src="img/scm_155.jpg" alt="">
+        </a>
+        람다람
+      </li>
+    </ul>
+
+  </section>
+  <!-- 인물정보슬라이더끝 -->
+  <!-- 컨텐츠영역시작 -->
+  <section class="wrap">
+    <div class="inner">
+      <div class="title_list animate" data-animate="motion">
+        <h2 class="title">CONTENTS</h2>
+        <h3 class="tit">VIEW ALL <img src="img/main_cont_arrow.png" alt=""></h3>
+      </div>
+      <ul class="contents_list animate" data-animate="motion">
+        <li class="big_w">
+          <a href="#">
+            <p class="in_cot">
+              MMZ EDITION
+            </p>
+            <p class="in_tit">
+              “Cheers To All Broken Hearts”
+            </p>
+            <p class="in_txt">
+              혼술을 부르는 술먹방 크리에이터 스페셜 기획전
+            </p>
+            <p class="in_more">
+              MORE
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/memez_main_contents_1663319631.png" alt="">
+            <div class="in_contents">
+              <p class="in_cot">
+                MMZ FOCUZ
+              </p>
+              <p class="in_tit">
+                “ 드라마 시맨틱 에러 작업실의 비밀 ”
+              </p>
+              <p class="in_txt">
+                시맨틱 에러 재영이의 작품의 실제 주인공,<br>용용작가님과의 진솔한 인터뷰
+              </p>
+              <p class="in_more">
+                MORE
+              </p>
+              <div class="item_list">
+                <img src="img/3021_Main.png" alt="">
+                <p class="item_tit">Yongyong HipKids 반팔티셔츠(레드/그린)</p>
+                <p class="item_sell">￦ 26,000</p>
+                <span class="item_mark">1</span>
+              </div>
+              <div class="item_list">
+                <img src="img/3022_Main.png" alt="">
+                <p class="item_tit">Yongyong HipKids 반팔티셔츠(레드)</p>
+                <p class="item_sell">￦ 26,000</p>
+                <span class="item_mark"></span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/memez_main_contents_1663319637.png" alt="">
+            <div class="in_contents">
+              <p class="in_cot">
+                MMZ FOCUZ
+              </p>
+              <p class="in_tit">
+                “ 난 작가와 틴틴팅클 ”
+              </p>
+              <p class="in_txt">
+                귀여운 고양이들의 이야기를 그리는 난<br>작가님과의 인터뷰
+              </p>
+              <p class="in_more">
+                MORE
+              </p>
+              <div class="item_list">
+                <img src="img/3031_main_045.jpg" alt="">
+                <p class="item_tit">Nan 오늘의 아침 반팔티셔츠(Color Ver)</p>
+                <p class="item_sell">￦ 25,000</p>
+                <span class="item_mark">8</span>
+              </div>
+              <div class="item_list">
+                <img src="img/3032_Main.png" alt="">
+                <p class="item_tit">Nan 오늘의 아침 반팔티셔츠(Skyblu Ver)</p>
+                <p class="item_sell">￦ 25,000</p>
+                <span class="item_mark">5</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/memez_main_contents_1661847427.jpg" alt="">
+            <div class="in_contents">
+              <p class="in_cot">
+                MMZ FOCUZ
+              </p>
+              <p class="in_tit">
+                “ 게으른 고양이와 부지런한 집사 ”
+              </p>
+              <p class="in_txt">
+                유튜브 ‘순무농장’의 주인공들을 만나보았다<br>&#160
+              </p>
+              <p class="in_more">
+                MORE
+              </p>
+              <div class="item_list">
+                <img src="img/2579_Main.png" alt="">
+                <p class="item_tit">순무 LAZY CAT ROUTINE 반팔티셔츠</p>
+                <p class="item_sell">￦ 25,000</p>
+                <span class="item_mark">3</span>
+              </div>
+              <div class="item_list">
+                <img src="img/2580_Main.png" alt="">
+                <p class="item_tit">순무 bakery 반팔 티셔츠</p>
+                <p class="item_sell">￦ 25,000</p>
+                <span class="item_mark">1</span>
+              </div>
+            </div>
+          </a>
+        </li><li>
+          <a href="#">
+            <img src="img/memez_main_contents_1661847933.jpg" alt="">
+            <div class="in_contents">
+              <p class="in_cot">
+                BEHIND MMZ
+              </p>
+              <p class="in_tit">
+                “하지만 우린 집에 가고싶지 않았다 ”
+              </p>
+              <p class="in_txt">
+                크리에이터 예랑가랑의 집에보내줘 MV 촬영 비하인드!    
+              </p>
+              <p class="in_more">
+                MORE
+              </p>
+              <div class="item_list">
+                <img src="img/2870_Main.png" alt="">
+                <p class="item_tit">예랑가랑 방구석 라방 응원 파자마세트</p>
+                <p class="item_sell">￦ 63,900</p>
+                <span class="item_mark">3</span>
+              </div>
+              <div class="item_list">
+                <img src="img/2869_Main.png" alt="">
+                <p class="item_tit">예랑가랑 방구석 라방 응원 머리띠</p>
+                <p class="item_sell">￦ 16,000</p>
+                <span class="item_mark"></span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="big_w">
+          <a href="#">
+            <p class="in_cot">
+              BEHIND MMZ
+            </p>
+            <p class="in_tit">
+              “환경을 생각하는 위스키 브랜드”
+            </p>
+            <p class="in_txt">
+              글렌피딕과 함께한 FESTIVAL MD BEHIND
+            </p>
+            <p class="in_more">
+              MORE
+            </p>
+          </a>
+        </li>
+      </ul>
+      <div class="sell animate" data-animate="motion">
+        <img src="img/7900c456b8048580d26d8282c257c48b_86338.jpg" alt="">
+      </div>
+      <ul class="category_list animate" data-animate="motion">
+        <li><img src="img/main_creator.png" alt=""></li>
+        <li><img src="img/main_brand.png" alt=""></li>
+        <li><img src="img/main_artist.png" alt=""></li>
+      </ul>
+    </div>
+  </section>
+  <!-- 컨텐츠영역끝 -->
+  <!-- 프로덕트영역시작 -->
+  <section class="wrap">
+    <div class="inner">
+      <div class="title_list animate" data-animate="motion">
+        <h2 class="title">PRODUCTS</h2>
+        <h3 class="tit">VIEW ALL <img src="img/main_cont_arrow.png" alt=""></h3>
+      </div>
+      <ul class="product_list animate" data-animate="motion">
+        <li>
+          <img src="img/1.jpg" alt="">
+          <p class="pro_tit">이상한 변호사 우영우 하드 폰케이스</p>
+          <span class="item_mark">17</span>
+          <p class="pro_price">￦ 12,900</p>
+        </li>
+        <li>
+          <img src="img/2.jpg" alt="">
+          <p class="pro_tit">이상한 변호사 우영우 에폭시 그립톡</p>
+          <span class="item_mark">12</span>
+          <p class="pro_price">￦ 8,900</p>
+        </li>
+        <li>
+          <img src="img/3.jpg" alt="">
+          <p class="pro_tit">이상한 변호사 우영우 무릎담요</p>
+          <span class="item_mark">14</span>
+          <p class="pro_price">판매종료</p>
+        </li>
+        <li>
+          <img src="img/4.jpg" alt="">
+          <p class="pro_tit">이상한 변호사 우영우 머그컵</p>
+          <span class="item_mark">14</span>
+          <p class="pro_price">￦ 10,800</p>
+        </li>
+        <li>
+          <img src="img/5.jpg" alt="">
+          <p class="pro_tit">이상한 변호사 우영우 금속 가슴뱃지</p>
+          <span class="item_mark">15</span>
+          <p class="pro_price">판매종료</p>
+        </li>
+        <li>
+          <img src="img/6.jpg" alt="">
+          <p class="pro_tit">이상한 변호사 우영우 양면우산</p>
+          <span class="item_mark">13</span>
+          <p class="pro_price">￦ 29,000</p>
+        </li>
+        <li>
+          <img src="img/7.png" alt="">
+          <p class="pro_tit">엠드로메다 이게 내 첫사랑이야 티셔츠</p>
+          <span class="item_mark">10</span>
+          <p class="pro_price">￦ 37,000</p>
+        </li>
+        <li>
+          <img src="img/8.png" alt="">
+          <p class="pro_tit">엠드로메다 썸 탈꺼시다 반팔티셔츠</p>
+          <span class="item_mark">5</span>
+          <p class="pro_price">￦ 37,000</p>
+        </li>
+        <li>
+          <img src="img/9.png" alt="">
+          <p class="pro_tit">엠드로메다 침하디&주하디 티셔츠</p>
+          <span class="item_mark">30</span>
+          <p class="pro_price">￦ 25,000</p>
+        </li>
+        <li>
+          <img src="img/10.png" alt="">
+          <p class="pro_tit">침착맨 침착 블루 장패드</p>
+          <span class="item_mark">16</span>
+          <p class="pro_price">￦ 22,000</p>
+        </li>
+        <li>
+          <img src="img/2941_Main.png" alt="">
+          <p class="pro_tit">침착맨 침착 오렌지 장패드</p>
+          <span class="item_mark">6</span>
+          <p class="pro_price">￦ 22,000</p>
+        </li>
+        <li>
+          <img src="img/1196_Main.png" alt="">
+          <p class="pro_tit">엠드로메다 침펄 힘드로메다 티셔츠</p>
+          <span class="item_mark">16</span>
+          <p class="pro_price">￦ 25,000</p>
+        </li>
+        <li>
+          <img src="img/3103_Main.png" alt="">
+          <p class="pro_tit">주호민 Shab Bbab Ddubidubab 티셔츠</p>
+          <span class="item_mark">16</span>
+          <p class="pro_price">￦ 25,000</p>
+        </li>
+        <li>
+          <img src="img/3102_Main.png" alt="">
+          <p class="pro_tit">주호민 평온 주펄 티셔츠</p>
+          <span class="item_mark">14</span>
+          <p class="pro_price">￦ 25,000</p>
+        </li>
+        <li>
+          <img src="img/3031_main_045.jpg" alt="">
+          <p class="pro_tit">Nan 오늘의 아침 반팔 티셔츠</p>
+          <span class="item_mark">8</span>
+          <p class="pro_price">￦ 25,000</p>
+        </li>
+        <li>
+          <img src="img/3039_Main.png" alt="">
+          <p class="pro_tit">Nan 고스트 틴틴팅클 반팔티셔츠</p>
+          <span class="item_mark">12</span>
+          <p class="pro_price">￦ 25,000</p>
+        </li>
+        <li>
+          <img src="img/2860_Main.png" alt="">
+          <p class="pro_tit">밤비 LUCKY BAMBI 반팔티셔츠</p>
+          <span class="item_mark">3</span>
+          <p class="pro_price">￦ 25,000</p>
+        </li>
+        <li>
+          <img src="img/2820_Main.png" alt="">
+          <p class="pro_tit">밤비 LUCKY BAMBI 반팔티셔츠</p>
+          <span class="item_mark">2</span>
+          <p class="pro_price">￦ 25,000</p>
+        </li>
+        <li>
+          <img src="img/2579_Main.png" alt="">
+          <p class="pro_tit">순무 LAZY CAT ROUTINE 티셔츠</p>
+          <span class="item_mark">3</span>
+          <p class="pro_price">￦ 25,000</p>
+        </li>
+        <li>
+          <img src="img/2580_Main.png" alt="">
+          <p class="pro_tit">순무 Bakery 반팔 티셔츠</p>
+          <span class="item_mark">1</span>
+          <p class="pro_price">￦ 25,000</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- 프로덕트영역끝 -->
+  <!-- 리뷰영역시작 -->
+  <section class="wrap_rev wrap">
+    <div class="inner">
+      <div class="title_list animate" data-animate="motion">
+        <h2 class="title">BEST REVIEWS</h2>
+        <h3 class="tit">VIEW ALL <img src="img/main_cont_arrow.png" alt=""></h3>
+      </div>
+      <ul class="review_list animate" data-animate="motion">
+        <li>
+          <a href="#">
+            <img src="img/goodsreview_oldboardSno12212_0.jpg" alt="">
+            <div class="review_text_box">
+              <img src="img/icon_star_fill.png" alt="리뷰별점수">
+              <p class="review_tit">케이스 상품 후기</p>
+              <p class="review_txt">상태 좋구요 주문제작이라 오는데 10일정도 걸렸습니다 케이스도 생각한거보다 훨씬 좋아서 잘 쓸것 같습니다!탑10 모두 너무 맘에들어요!</p>
+              <div class="review_bottom_box">
+                <img src="img/2618_Main.png" alt="">
+                <p class="review_b_tit">JTBC 유명가수 전체케이스</p>
+                <span class="mark"></span>
+                <p class="review_b_pri">￦ 15,000</p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/goodsreview_oldboardSno10801_0.jpeg" alt="">
+            <div class="review_text_box">
+              <img src="img/icon_star_fill.png" alt="리뷰별점수">
+              <p class="review_tit">세상 예쁜 유리컵</p>
+              <p class="review_txt">디자인/퀄리티/가격 모두 만족스럽습니다ㅜ 하나는 소장용으로 두고 하나만 사용해야겠어요!! 색감이 영롱하고 너무 이뻐요</p>
+              <div class="review_bottom_box">
+                <img src="img/1301_Main.png" alt="">
+                <p class="review_b_tit">하하하 동행 유리컵세트</p>
+                <span class="mark"></span>
+                <p class="review_b_pri">￦ 26,000</p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/goodsreview_oldboardSno8661_0.jpeg" alt="">
+            <div class="review_text_box">
+              <img src="img/icon_star_fill.png" alt="리뷰별점수">
+              <p class="review_tit">조아요조아요</p>
+              <p class="review_txt">회사에서까지 보게될줄이야말건 회차가 새록새록 떠오르는 느낌 일하면서 노는느낌..? 다만 저희가 영상으로 보지 못하는게 아쉬워요</p>
+              <div class="review_bottom_box">
+                <img src="img/1775_Main.png" alt="">
+                <p class="review_b_tit">엠드로메다 말년을 건강하게 달력</p>
+                <span class="mark"></span>
+                <p class="review_b_pri">￦ 9,900</p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/goodsreview_oldboardSno8543_0.jpg" alt="">
+            <div class="review_text_box">
+              <img src="img/icon_star_fill.png" alt="리뷰별점수">
+              <p class="review_tit">진짜 최고 ㅜ.ㅜ</p>
+              <p class="review_txt">이러니 기획세트를 안살수없죠 매년마다 기다리고 또 기다립니다. 이 가격에 이 구성이라니 ㅠㅠ 벽걸이 달력이랑 매거진 넘 좋아요</p>
+              <div class="review_bottom_box">
+                <img src="img/1734_Main.png" alt="">
+                <p class="review_b_tit">하하하 목공소의 목공키트</p>
+                <span class="mark"></span>
+                <p class="review_b_pri">￦ 42,000</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- <div class="arr">
+      <div class="left_arr">
+        <a href="#"><img src="img/ico_review_preview.png" alt="이전으로"></a>
+      </div>
+      <div class="right_arr">
+        <a href="#"><img src="img/ico_review_next.png" alt="다음으로"></a>
+      </div>
+    </div> -->
+  </section>
+  <!-- 리뷰영역끝 -->
+  <!-- 푸터영역시작 -->
+  <footer class="footer_wrap">
+    <div class="footer_inner">
+      <div class="footer_left">
+        <img src="img/1bb87d41d15fe27b500a4bfcde01bb0e_43685.png" alt="logo">
+        <span class="sns"></span>
+        <span class="sns"></span>
+        <span class="sns"></span>
+        <span class="sns"></span>
+      </div>
+      <div class="footer_right">
+        <div class="inTop">
+          <ul class="inleft">
+            <li>회사소개</li>
+            <li>이용약관</li>
+            <li>개인정보처리방침</li>
+            <li>이용안내</li>
+            <li>입점신청</li>
+            <li>제조사 입점신청</li>
+          </ul>
+          <div class="inright">
+            <span class="company">SANDBOX</span>
+            <span class="company">MTDZ</span>
+          </div>
+        </div>
+        <div class="inBottom">
+          <div class="firstBox">
+            <span class="bar">
+            (주)샌드박스 네트워크 대표:이필성<br>
+            서울특별시 용산구 서빙고로 17 센트럴파크타워 30층<br>
+            사업자등록번호 : 220-88-89136[사업자번호조회]<br>
+            통신판매업신고번호 : 2021-서울용산-0232<br>
+            개인정보관리자 : 이필성<br>
+            이메일 : memez@memez.kr<br>
+            </span>
+            Copyrightⓒ2022 MEMEZ. All Rights Reserved.<br>
+            입점 판매자가 등록한 상품, 거래정보 및 거래에 대하여<br>
+            (주) 샌드박스 네트워크는 일체의 책임을 지지 않습니다.
+          </div>
+          <div class="secondBox">
+            <span class="bar">
+            <b>반품배송지</b><br>
+            경기도 광주시 도척면 도척로 376-68<br>
+            엠케이물류 MEMEZ<br>
+            </span> 
+            <b>CUSTOMER CENTER</b><br>
+            <b class="bigtxt">1533-0652</b><br>
+            AM 10:00 ~ PM 05:00<br>
+            Off-time PM 01:00 ~ PM 02:00<br>
+            SATURDAY. SUNDAY, HOLIDAY OFF<br>
+            cs@memez.kr
+          </div>
+          <div class="thirdBox">
+            NOTICE<br>
+            Much-merch 주문 내역 조회 및 로그인 안내<br>
+            Much-merch의 재탄생, ‘MEMEZ’를 소개합니다.<br>
+            <img src="img/escrow_43x43_gray.png" alt="">
+            <img src="img/logo_cash_receipt.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- 푸터영역끝 -->
+</body>
+</html>
